@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+	.company-block img {
+		height: 70px;
+	}
+}
+
+@media (max-width: 768px) {
+	.company-block img {
+		height: 50px;
+	}
+}
+
+@media (max-width: 490px) {
+	.company-block img {
+		height: 38px;
+	}
+}

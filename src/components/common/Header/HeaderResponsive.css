@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+	.nav-menu {
+		display: flex;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav__icon {
+		display: block;
+	}
+}

@@ -1,0 +1,45 @@
+.modern-content {
+	background-image: url('./images/modern-1.webp'), url('./images/modern-2.webp');
+	background-repeat: no-repeat, no-repeat;
+	background-position: left 0px, right 0px;
+	padding: 142px 25px 66px;
+	background-size: 653px auto, 877px auto;
+}
+
+.modern-title {
+	max-width: 372px;
+	font-family: var(--second-family);
+	font-size: 55px;
+	line-height: 125%;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.modern-text {
+	max-width: 324px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.modern-phone {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 48px;
+}
+
+.call-num-text {
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+}
+
+.call-text {
+	font-weight: 500;
+	color: #fff;
+}
+
+.modern-btn {
+	font-weight: 500;
+}

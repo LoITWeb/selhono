@@ -1,0 +1,46 @@
+.about-content {
+	padding: 88px 30px;
+	border-radius: 70px;
+	background: #d8a876;
+}
+
+.about-title {
+	max-width: 550px;
+	font-family: var(--second-family);
+	font-size: 50px;
+	letter-spacing: 0.02em;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.about-card {
+	border-radius: 30px;
+	padding: 58px 37px;
+	background: var(--background-color);
+}
+
+.about-name {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.name-text {
+	font-family: var(--second-family);
+	font-size: 25px;
+	color: #292f36;
+}
+
+.city-text {
+	font-size: 18px;
+}

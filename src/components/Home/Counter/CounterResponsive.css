@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+	.counter-content {
+		grid-template-columns: 1fr 1px 1fr;
+	}
+
+	.counter-line.line {
+		display: none;
+	}
+}
+
+@media (max-width: 490px) {
+	.counter-content {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1px 1fr 1px 1fr 1px 1fr;
+		gap: 20px;
+	}
+
+	.counter-line.line {
+		display: block;
+	}
+
+	.counter-line {
+		transform: rotate(-90deg);
+	}
+}

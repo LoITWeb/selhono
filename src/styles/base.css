@@ -1,0 +1,181 @@
+:root {
+	--font-family: "Jost", sans-serif;
+	--second-family: "DM Serif Display", sans-serif;
+	--third-family: "Font Awesome 5 Brands", sans-serif;
+	--font3: "Inter", sans-serif;
+	--font4: "DM Serif Text", sans-serif;
+
+	--max-width: 1240px;
+	--padding: 0 15px;
+	--margin: 0 auto;
+	--text-color: #4d5053;
+	--accent: #C76904;
+	--background-color: #FFFFFF;
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/public/fonts/Jost-Light.woff2") format("woff2"),
+		url("/public/fonts/Jost-Light.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/public/fonts/Jost-Regular.woff2") format("woff2"),
+		url("/public/fonts/Jost-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/public/fonts/Jost-Medium.woff2") format("woff2"),
+		url("/public/fonts/Jost-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/public/fonts/Jost-SemiBold.woff2") format("woff2"),
+		url("/public/fonts/Jost-SemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("/public/fonts/Jost-Bold.woff2") format("woff2"),
+		url("/public/fonts/Jost-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "DM Serif Display";
+	src: url("/public/fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+		url("/public/fonts/DMSerifDisplay-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Brands";
+	src: url("/public/fonts/Font-Awesome-5-Brands-Regular.woff2") format("woff2"),
+		url("/public/fonts/Font-Awesome-5-Brands-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("/public/fonts/Inter-Medium.woff2") format("woff2"),
+		url("/public/fonts/Inter-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2"),
+		url("/public/fonts/Inter-SemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "DM Serif Text";
+	src: url("/public/fonts/DMSerifText-Regular.woff2") format("woff2"),
+		url("/public/fonts/DMSerifDisplay-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+.container {
+	max-width: var(--max-width);
+	padding: var(--padding);
+	margin: var(--margin)
+}
+
+body {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 150%;
+	letter-spacing: 0.01em;
+	overflow-x: hidden;
+	height: 100%;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+section {
+	padding-top: 150px;
+
+	@media (max-width: 768px) {
+		padding-top: 100px;
+	}
+
+	@media (max-width: 490px) {
+		padding-top: 50px;
+	}
+}
+
+.btn {
+	position: relative;
+	font-family: var(--font3);
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+	display: flex;
+	gap: 10px;
+	width: 250px;
+	border-radius: 18px;
+	padding: 26px 10px;
+	box-shadow: 0 10px 20px 0 rgba(192, 192, 192, 0.35);
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	background: #cda274;
+	transition: all 100ms ease-in;
+
+	@media (max-width: 490px) {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+.btn:hover {
+	background: var(--accent);
+}
+
+.btn:active {
+	top: 2px;
+}

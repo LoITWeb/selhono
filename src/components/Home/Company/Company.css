@@ -1,0 +1,17 @@
+.company-block {
+	display: flex;
+	width: max-content;
+	animation: scroll-left 20s linear infinite;
+	overflow: hidden;
+}
+
+/* Анимация сдвига влево */
+@keyframes scroll-left {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-33.3333%);
+	}
+}

@@ -1,0 +1,29 @@
+.sub {
+	padding-top: 0;
+	background-image: url(./images/sub.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sub-content {
+	padding: 80px 0 136px;
+	text-align: center;
+	color: #fff;
+}
+
+.sub-title {
+	font-family: var(--second-family);
+	font-size: 50px;
+	line-height: 125%;
+	margin-bottom: 12px;
+}
+
+.sub-text {
+	font-weight: 500;
+	margin-bottom: 32px;
+}
+
+.sub-btn {
+	margin: 0 auto;
+}

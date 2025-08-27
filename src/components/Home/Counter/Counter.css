@@ -1,0 +1,25 @@
+.counter-content {
+	display: grid;
+	grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
+	place-items: center;
+	align-items: center;
+}
+
+.counter-block {
+	text-align: center;
+}
+
+.counter-num {
+	font-family: var(--second-family);
+	font-size: 85px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+	color: #cda274;
+	margin-bottom: 16px;
+}
+
+.counter-line {
+	border: 1px solid #cda274;
+	width: 0px;
+	height: 130px;
+}

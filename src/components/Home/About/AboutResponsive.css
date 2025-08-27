@@ -1,0 +1,36 @@
+@media (max-width: 1230px) {
+	.about-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 768px) {
+	.about-content {
+	padding: 30px;
+}
+}
+
+@media (max-width: 490px) {
+	.about-content {
+	padding: 40px 10px;
+}
+
+.about-title {
+	font-size: 34px;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
+
+.about-card {
+	padding: 30px 10px;
+}
+
+.name-text {
+	font-size: 22px;
+}
+
+.about-text {
+	font-size: 18px;
+}
+}

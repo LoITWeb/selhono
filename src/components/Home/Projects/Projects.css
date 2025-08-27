@@ -1,0 +1,57 @@
+.projects-top {
+	max-width: 732px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 114px;
+}
+
+.projects-title {
+	font-family: var(--second-family);
+	font-size: 60px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+	color: #292f36;
+	margin-bottom: 8px;
+}
+
+.projects-text {
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 116px;
+	row-gap: 32px;
+}
+
+.gallery-card img {
+	margin-bottom: 10px;
+}
+
+.gallery-btn img {
+	position: relative;
+	opacity: 1;
+	transition: all 100ms ease-in;
+	margin-bottom: 0;
+}
+
+.gallery-btn img:hover {
+	opacity: 0.5;
+}
+
+.gallery-card-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-title {
+	font-family: var(--second-family);
+	font-size: 25px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+	color: #292f36;
+	margin-bottom: 4px;
+}

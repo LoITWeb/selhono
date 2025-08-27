@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+	.gallery-grid {
+		column-gap: 30px;
+		row-gap: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.projects-top {
+		margin-bottom: 60px;
+	}
+
+	.projects-title {
+		font-size: 50px;
+	}
+
+	.projects-text {
+		font-size: 22px;
+	}
+
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.gallery-card img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 490px) {
+	.projects-top {
+		margin-bottom: 30px;
+	}
+
+	.projects-title {
+		font-size: 34px;
+	}
+
+	.projects-text {
+		font-size: 18px;
+	}
+
+	.gallery-title {
+		font-size: 22px;
+		margin-bottom: 0;
+	}
+
+	.gallery-text {
+		font-size: 18px;
+	}
+
+	.gallery-btn img {
+		width: 50px;
+	}
+}

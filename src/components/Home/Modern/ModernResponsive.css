@@ -1,0 +1,34 @@
+@media (max-width: 1230px) {
+	.modern-content {
+		background-image: url('./images/modern-1.webp');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		padding: 70px 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.modern-title {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 490px) {
+	.modern-title {
+		font-size: 34px;
+	}
+
+	.modern-text {
+		font-size: 18px;
+	}
+
+	.phone-img {
+		width: 60px;
+	}
+
+	.call-num-text,
+	.call-text {
+		font-size: 18px;
+	}
+}

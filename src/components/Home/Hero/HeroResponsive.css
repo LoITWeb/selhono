@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+	.hero-top {
+		padding: 75px 10px;
+		margin-bottom: 60px;
+	}
+
+	.hero-title {
+		font-size: 50px;
+	}
+
+	.hero-sub {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 42px;
+	}
+
+	.hero-block-title,
+	.hero-block-text {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 490px) {
+	.hero-title {
+		font-size: 34px;
+		margin-bottom: 30px;
+	}
+
+	.hero-text {
+		font-size: 18px;
+		margin-bottom: 50px;
+	}
+
+	.hero-block-title {
+		font-size: 22px;
+	}
+
+	.hero-block-text {
+		font-size: 18px;
+	}
+}
