@@ -1,0 +1,48 @@
+.service-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 42px;
+}
+
+.service-block-btn {
+	position: relative;
+	text-align: center;
+	border-radius: 30px;
+	padding: 83px 20px;
+	stroke: var(--text-color);
+	stroke-width: 2px;
+	stroke-linecap: square;
+	stroke-linejoin: round;
+	color: var(--text-color);
+	background-color: var(--background-color);
+	transition: all 190ms ease-in;
+}
+
+.service-block-btn:hover {
+	stroke: var(--accent);
+	color: var(--accent);
+	background-color: rgb(238, 238, 238);
+}
+
+.service-block-btn:active {
+	top: 2px;
+}
+
+.service-title {
+	font-family: var(--second-family);
+	font-size: 25px;
+	line-height: 125%;
+	margin-bottom: 20px;
+}
+
+.service-text {
+	margin-bottom: 52px;
+}
+
+.service-more {
+	width: 140px;
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	margin: 0 auto;
+}

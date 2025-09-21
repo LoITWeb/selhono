@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Arrow_w from "/public/images/arrow-w.svg";
-import Arrow_b from "/public/images/arrow-b.svg";
 import "./Hero.css";
 import "./HeroResponsive.css";
 
@@ -28,7 +27,9 @@ const Hero = () => {
 						</p>
 						<Link className="hero-block-btn" to="#!">
 							Read More
-							<img src={Arrow_b} alt="Button" />
+							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.4292 8.43536L15.1524 8.29851M10.0474 1.91132L16.5704 8.4343L9.91597 15.0887" />
+							</svg>
 						</Link>
 					</div>
 					<div className="hero-block">
@@ -39,7 +40,9 @@ const Hero = () => {
 						</p>
 						<Link className="hero-block-btn" to="#!">
 							Read More
-							<img src={Arrow_b} alt="Button" />
+							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.4292 8.43536L15.1524 8.29851M10.0474 1.91132L16.5704 8.4343L9.91597 15.0887" />
+							</svg>
 						</Link>
 					</div>
 					<div className="hero-block">
@@ -50,7 +53,9 @@ const Hero = () => {
 						</p>
 						<Link className="hero-block-btn" to="#!">
 							Read More
-							<img src={Arrow_b} alt="Button" />
+							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.4292 8.43536L15.1524 8.29851M10.0474 1.91132L16.5704 8.4343L9.91597 15.0887" />
+							</svg>
 						</Link>
 					</div>
 				</div>

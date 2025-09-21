@@ -62,12 +62,17 @@
 	line-height: 125%;
 	letter-spacing: 0.02em;
 	text-align: center;
+	stroke: var(--text-color);
+	stroke-width: 2px;
+	stroke-linecap: square;
+	stroke-linejoin: round;
 	color: #4d5053;
 	margin: 0 auto;
 	transition: all 100ms ease-in;
 }
 
 .hero-block-btn:hover {
+	stroke: #000;
 	color: #000;
 }
 

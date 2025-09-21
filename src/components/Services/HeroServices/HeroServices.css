@@ -1,0 +1,19 @@
+.hero-services {
+	padding-top: 0;
+	background-image: url(./images/hero-services.webp);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.hero-services-title {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 125%;
+	text-align: center;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+	padding: 178px 0 90px;
+	color: #fff;
+}
