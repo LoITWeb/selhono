@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+	.service-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.service-block-btn {
+		height: 320px;
+		padding: 30px 10px;
+	}
+}
+
+@media (max-width: 490px) {
+	.service-grid {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	}
+
+	.service-block-btn {
+		height: 220px;
+		padding: 20px 10px;
+	}
+
+	.service-title {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.service-text,
+	.service-more {
+		font-size: 18px;
+	}
+}

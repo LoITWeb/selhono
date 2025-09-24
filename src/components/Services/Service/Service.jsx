@@ -9,11 +9,13 @@ const Service = () => {
 			<div className="container">
 				<div className="service-grid">
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">Project Plan</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">Project Plan</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,11 +24,13 @@ const Service = () => {
 						</div>
 					</Link>
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">Interior Work</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">Interior Work</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,11 +39,13 @@ const Service = () => {
 						</div>
 					</Link>
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">Retail Design</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">Retail Design</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,11 +54,13 @@ const Service = () => {
 						</div>
 					</Link>
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">2d/3d Art Work</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">2d/3d Art Work</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,11 +69,13 @@ const Service = () => {
 						</div>
 					</Link>
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">Interior Work</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">Interior Work</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,11 +84,13 @@ const Service = () => {
 						</div>
 					</Link>
 					<Link className="service-block-btn" to="#!">
-						<p className="service-title">Decoration Work</p>
-						<p className="service-text">
-							There are many variations of the passages of lorem Ipsum from
-							available, majority.
-						</p>
+						<div className="service-block">
+							<p className="service-title">Decoration Work</p>
+							<p className="service-text">
+								There are many variations of the passages of lorem Ipsum from
+								available, majority.
+							</p>
+						</div>
 						<div className="service-more">
 							<p className="service-more-text">Read More</p>
 							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">

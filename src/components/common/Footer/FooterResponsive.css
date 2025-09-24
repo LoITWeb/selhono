@@ -18,6 +18,10 @@
 		row-gap: 30px;
 	}
 
+	.link-pages {
+		margin: 0 auto;
+	}
+
 	.socials,
 	.social-block,
 	.footer-contacts {
