@@ -119,6 +119,7 @@ body {
 	font-size: 22px;
 	line-height: 150%;
 	letter-spacing: 0.01em;
+	overflow-x: hidden;
 	height: 100%;
 	color: var(--text-color);
 	background-color: var(--background-color);
@@ -128,7 +129,6 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	overflow-x: hidden;
 }
 
 .main {
