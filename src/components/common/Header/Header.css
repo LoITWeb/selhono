@@ -56,9 +56,6 @@
 	width: var(--width);
 
 	display: flex;
-
-	justify-content: center;
-	align-items: center;
 }
 
 .nav-icon {
@@ -114,8 +111,10 @@
 }
 
 .mobile-nav-btn {
-	position: relative;
+	position: fixed;
 	z-index: 999;
+	top: 34px;
+	right: 34px;
 }
 
 /* Mobile Nav */
