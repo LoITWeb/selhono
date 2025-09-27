@@ -120,6 +120,7 @@ body {
 	line-height: 150%;
 	letter-spacing: 0.01em;
 	height: 100%;
+	overflow-x: hidden;
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
