@@ -118,10 +118,11 @@
 /* Mobile Nav */
 .mobile-nav {
 	position: fixed;
-	top: -100%;
+	/* top: -100%; */
+	top: env(safe-area-inset-top);
 	width: 100%;
 	height: 100dvh;
-	z-index: 99;
+	z-index: 1000;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
