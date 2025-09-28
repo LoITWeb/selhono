@@ -111,10 +111,8 @@
 }
 
 .mobile-nav-btn {
-	position: fixed;
+	position: relative;
 	z-index: 999;
-	top: 34px;
-	right: 34px;
 }
 
 /* Mobile Nav */
