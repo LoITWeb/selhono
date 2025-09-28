@@ -113,11 +113,6 @@
 	transform: rotate(-45deg);
 }
 
-/* .mobile-nav-btn {
-	position: relative;
-	z-index: 999;
-} */
-
 /* Mobile Nav */
 .mobile-nav {
 	position: fixed;
