@@ -124,6 +124,12 @@ body {
 	background-color: var(--background-color);
 }
 
+.no-scroll {
+	overflow: hidden;
+	touch-action: none;
+	overscroll-behavior: contain;
+}
+
 .wrapper {
 	min-height: 100vh;
 	display: flex;
